@@ -3,6 +3,8 @@ Changes that are needed to the course material or ideas for general improvements
 
 ## 1 / Programming for DS and AI
 *   Possibly add the logic tables when introducing `and` and `or` - maybe just draw them live?
+*   Remove modulo example and replace with something more straight forward
+*   Add a new early exercise to just explore creating variables etc before getting into control flow
 
 ## 2 / 
 *   Too much material, need more space for practice/exercises
