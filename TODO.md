@@ -11,7 +11,6 @@ Changes that are needed to the course material or ideas for general improvements
 *   For the CRP example, it would be clearer for explanation and testing to just pick a name and run the function rather than using a loop
 
 ## 3 / ML Foundations and Data Prep
-*   Too much material
-*   Data standardisation/normalisation is hard to justify without having seen how a basic model works
-*   In exercise 3.1 - clarify what is meant by variation/variability
+*   Need to simplify the MIMIC access, too many issues with different versions and projects. This should be standardised and simplified.
+*   Start with a simpler example for the MEWS, perhaps hint about the use of cut with labels
 
