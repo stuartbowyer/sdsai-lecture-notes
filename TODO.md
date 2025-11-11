@@ -14,3 +14,10 @@ Changes that are needed to the course material or ideas for general improvements
 *   Need to simplify the MIMIC access, too many issues with different versions and projects. This should be standardised and simplified.
 *   Start with a simpler example for the MEWS, perhaps hint about the use of cut with labels
 
+## 4 / Supervised Learning
+*   AUC ROC needs more explanation or detail or introduction
+
+## 6 / Ensemble Methods Etc.
+
+*   Summary of data pipeline (i.e. spliting, etc) at the end
+*   Summary of data leakage
