@@ -16,6 +16,10 @@ Changes that are needed to the course material or ideas for general improvements
 
 ## 4 / Supervised Learning
 *   AUC ROC needs more explanation or detail or introduction
+*   Some worked examples would make this smoother
+
+## 5 / Neural Networks
+*   Todo
 
 ## 6 / Ensemble Methods Etc.
 
