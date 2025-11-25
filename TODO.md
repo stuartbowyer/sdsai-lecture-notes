@@ -22,6 +22,8 @@ Changes that are needed to the course material or ideas for general improvements
 *   Todo
 
 ## 6 / Ensemble Methods Etc.
+*   Todo
 
+## 7 / Summary
 *   Summary of data pipeline (i.e. spliting, etc) at the end
 *   Summary of data leakage
