@@ -15,8 +15,6 @@ categories: ["course"]
 | Imperial College London |
 | [https://profiles.imperial.ac.uk/stuart.bowyer](https://profiles.imperial.ac.uk/stuart.bowyer) |
 
-**IMPORTANT: This years module is under development and content will be updated continuously**
-
 This course provides an integrated introduction to the essential tools and methodologies in data science and AI for healthcare applications. It begins with programming fundamentals and progresses through data manipulation, visualisation, machine learning foundations, supervised learning, neural networks, deep learning, ensemble methods, and unsupervised learning. The curriculum is tailored for practicing clinicians aiming to build a robust understanding of data-driven problem-solving and intelligent system design.​
 
 Modules Include:
