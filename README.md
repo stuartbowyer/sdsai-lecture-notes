@@ -41,3 +41,4 @@ Examines techniques for improving model performance and uncovering hidden data s
 | Year | Version | Link |
 | ---  | ---     | ---  |
 | 2024 | v1.0.0-2024 | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/stuartbowyer/sdsai-lecture-notes/tree/v1.0.0-2024) |
+| 2025 | v1.1.0-2025 | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/stuartbowyer/sdsai-lecture-notes/tree/v1.1.0-2025) |
