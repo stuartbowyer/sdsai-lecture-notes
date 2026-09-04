@@ -5,7 +5,6 @@ categories: ["course"]
 ---
 
 # Surgical Data Science and AI (2025)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/stuartbowyer/sdsai-lecture-notes)
 
 | SURG70098 |
 | :-- | 
