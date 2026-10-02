@@ -10,20 +10,22 @@ Changes that are needed to the course material or ideas for general improvements
 ## 2 / Manipulating and Visualising Data
 *   For the CRP example, it would be clearer for explanation and testing to just pick a name and run the function rather than using a loop
 
-## 3 / ML Foundations and Data Prep
+## 3 / Accessing Data and Challenge 1
+
+## 4 / ML Foundations and Data Prep
 *   Need to simplify the MIMIC access, too many issues with different versions and projects. This should be standardised and simplified.
 *   Start with a simpler example for the MEWS, perhaps hint about the use of cut with labels
 
-## 4 / Supervised Learning
+## 5 / Supervised Learning
 *   AUC ROC needs more explanation or detail or introduction
 *   Some worked examples would make this smoother
 
-## 5 / Neural Networks
+## 6 / Neural Networks
 *   Todo
 
-## 6 / Ensemble Methods Etc.
+## 7 / Ensemble Methods Etc.
 *   Todo
 
-## 7 / Summary
+## 8 / Summary
 *   Summary of data pipeline (i.e. spliting, etc) at the end
 *   Summary of data leakage

@@ -1,0 +1,8 @@
+# Notebooks are committed without outputs; renders execute them (bowyer.ai,
+# quartocourse [execute]). The filter is local git config, once per clone:
+#   uv sync
+#   git config filter.nbstripout.clean ".venv/bin/nbstripout --keep-id"
+#   git config filter.nbstripout.smudge cat
+#   git config filter.nbstripout.required true
+# .github/workflows/no-outputs.yml rejects anything that gets past it.
+*.ipynb filter=nbstripout

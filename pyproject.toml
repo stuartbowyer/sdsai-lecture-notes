@@ -1,0 +1,29 @@
+# Kernel environment for the lecture notebooks: what a code cell can import.
+#
+# quartocourse executes the notebooks with this environment at render time
+# (bowyer.ai: teaching/courses/sdsai/course.toml, [execute] python), so a
+# notebook that imports something new needs it added here.
+
+[project]
+name = "sdsai-lecture-notes"
+version = "0.1.0"
+description = "Lecture notebooks for SURG70098 Surgical Data Science and AI"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "imbalanced-learn>=0.12",
+    "pandas-gbq>=0.23",
+]
+
+# An environment, not a distributable package.
+[tool.uv]
+package = false
+
+[dependency-groups]
+# Git's clean filter for *.ipynb (see .gitattributes); not needed by the kernel.
+dev = ["nbstripout>=0.8"]

@@ -4,13 +4,13 @@ tags: ["ML","AI"]
 categories: ["course"]
 ---
 
-# Surgical Data Science and AI (2025)
+# Surgical Data Science and AI (2026)
 
 | SURG70098 |
 | :-- | 
 | MRes Medical Robotics and Image-Guided Intervention: Clinical Robotics and AI |
 | Hamlyn Centre for Medical Robotics / Department of Surgery and Cancer |
-| October 2025 - December 2025 |
+| October 2026 - December 2026 |
 | Imperial College London |
 | [https://profiles.imperial.ac.uk/stuart.bowyer](https://profiles.imperial.ac.uk/stuart.bowyer) |
 

@@ -1,0 +1,27 @@
+# Fails if a committed notebook carries outputs: they can hold credentialed
+# data (MIMIC-IV), and they bypass the local nbstripout filter when a clone
+# lacks it or a notebook is saved straight from Colab.
+name: No notebook outputs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check notebooks have no outputs
+        shell: python
+        run: |
+          import json, pathlib, sys
+          bad = []
+          for path in sorted(pathlib.Path(".").rglob("*.ipynb")):
+              cells = json.loads(path.read_text())["cells"]
+              n = sum(1 for c in cells if c["cell_type"] == "code"
+                      and (c.get("outputs") or c.get("execution_count") is not None))
+              if n:
+                  bad.append(f"{path}: {n} cell(s) with outputs")
+          print("\n".join(bad) or "No outputs found.")
+          sys.exit(1 if bad else 0)
