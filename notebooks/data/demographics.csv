@@ -16,7 +16,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 15,Amanda,Montgomery,2009-07-20,Female,P
 16,Matthew,King,1995-03-24,Male,L
 17,Tara,Browning,2006-06-02,Female,N
-18,Wayne,Mcgrath,1969-11-12,Non-binary,E
+18,Wayne,Mcgrath,1969-11-12,Not known,E
 19,Jennifer,Patrick,1971-04-21,Female,E
 20,Evelyn,Barrera,1982-01-17,Female,H
 21,Thomas,Collins,2024-01-25,Male,Z
@@ -93,7 +93,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 92,Teresa,Riley,1953-02-09,Female,A
 93,Cameron,Hayes,1992-04-20,Male,K
 94,Christine,Keller,1975-12-21,Female,F
-95,Stephanie,Davies,1950-05-03,Non-binary,A
+95,Stephanie,Davies,1950-05-03,Not known,A
 96,Sandra,Stark,1964-04-05,Female,D
 97,Laura,Leon,1958-04-14,Female,B
 98,Dwayne,Miller,1990-05-31,Male,K
@@ -122,7 +122,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 121,Evelyn,Johnston,1991-06-26,Female,K
 122,John,Myers,2005-08-16,Male,N
 123,Joseph,Wood,1997-03-08,Male,L
-124,Christopher,Hooper,2020-12-27,Non-binary,Z
+124,Christopher,Hooper,2020-12-27,Not known,Z
 125,Ethan,Johnson,1975-10-07,Male,F
 126,James,Smith,1993-10-17,Male,K
 127,Jennifer,Woodward,1956-03-10,Female,B
@@ -142,7 +142,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 141,Kelly,Gordon,1993-10-07,Female,K
 142,Keith,Williams,1997-12-15,Male,L
 143,Harold,Garcia,1952-07-11,Male,A
-144,Elizabeth,Mcneil,2006-08-21,Non-binary,N
+144,Elizabeth,Mcneil,2006-08-21,Not known,N
 145,Nicholas,Gonzalez,2011-02-17,Male,P
 146,James,Howard,1955-05-11,Male,B
 147,Robin,Dennis,1998-06-20,Female,M
@@ -214,11 +214,11 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 213,Stacey,Golden,1969-08-08,Female,E
 214,Terri,Burnett,1998-06-09,Female,M
 215,David,Lopez,1957-02-26,Male,B
-216,Matthew,Key,2011-10-15,Non-binary,R
+216,Matthew,Key,2011-10-15,Not known,R
 217,Madeline,Schultz,1974-12-09,Female,F
 218,Frank,Miller,2021-05-25,Male,Z
 219,Briana,Swanson,1985-03-27,Female,J
-220,Kathleen,Hatfield,1952-06-21,Non-binary,A
+220,Kathleen,Hatfield,1952-06-21,Not known,A
 221,Joshua,Morales,2017-12-14,Male,S
 222,Kimberly,Gregory,1996-10-04,Female,L
 223,Michael,Stewart,1971-06-17,Male,E
@@ -274,7 +274,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 273,Erin,Oliver,1989-11-13,Female,K
 274,Nicholas,Williams,1955-06-18,Male,B
 275,Kyle,Martin,1980-06-24,Male,G
-276,Cody,Holden,1999-03-28,Non-binary,M
+276,Cody,Holden,1999-03-28,Not known,M
 277,Justin,Roberts,2022-03-19,Male,Z
 278,Alejandro,Foster,1982-04-04,Male,H
 279,Rachel,Kelley,1982-08-05,Female,H
@@ -318,7 +318,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 317,Sharon,Shelton,1975-10-27,Female,F
 318,Ricky,Henderson,1996-12-27,Male,L
 319,Noah,Richardson,2007-04-08,Male,P
-320,Adam,Hinton,1997-02-10,Non-binary,L
+320,Adam,Hinton,1997-02-10,Not known,L
 321,Charles,Green,2006-04-27,Male,N
 322,Christine,Waters,1964-08-17,Female,D
 323,Kenneth,Reynolds,2021-07-24,Male,Z
@@ -340,8 +340,8 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 339,Dillon,Gray,1955-09-11,Male,B
 340,Kimberly,Payne,2003-02-17,Female,N
 341,Wayne,Hernandez,2000-11-21,Male,M
-342,Jeffery,Hinton,2008-02-21,Non-binary,P
-343,Andrea,Bird,1990-09-25,Non-binary,K
+342,Jeffery,Hinton,2008-02-21,Not known,P
+343,Andrea,Bird,1990-09-25,Not known,K
 344,Austin,Hernandez,1991-05-29,Male,K
 345,James,Sullivan,1962-08-26,Male,C
 346,Tiffany,Frazier,1965-07-05,Female,D
@@ -387,7 +387,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 386,Jennifer,Gregory,1965-04-26,Female,D
 387,Stacy,Trujillo,1998-02-28,Female,L
 388,Kimberly,Chang,2023-05-20,Female,Z
-389,Alicia,Mooney,1958-04-24,Non-binary,B
+389,Alicia,Mooney,1958-04-24,Not known,B
 390,Colleen,Burgess,2001-06-20,Female,M
 391,Ann,Bullock,1995-12-02,Female,L
 392,Tim,Harris,1978-02-04,Male,G
@@ -424,7 +424,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 423,Michelle,Love,1992-03-25,Female,K
 424,Sherry,Nunez,2018-06-28,Female,S
 425,Brandon,Hernandez,2019-06-24,Male,S
-426,David,Hatfield,1956-06-27,Non-binary,B
+426,David,Hatfield,1956-06-27,Not known,B
 427,Jon,Jenkins,1993-12-20,Male,K
 428,Lisa,Carr,1975-01-03,Female,F
 429,Matthew,Hughes,1987-11-19,Male,J
@@ -529,7 +529,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 528,Pamela,Rubio,2016-08-07,Female,S
 529,Jennifer,Fields,1966-12-30,Female,D
 530,Joseph,White,2022-04-29,Male,Z
-531,Tiffany,Kaiser,2023-07-26,Non-binary,Z
+531,Tiffany,Kaiser,2023-07-26,Not known,Z
 532,Michael,Garcia,1993-01-04,Male,K
 533,Michelle,Carpenter,1953-01-08,Female,A
 534,Matthew,Moore,1956-12-27,Male,B
@@ -598,7 +598,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 597,Matthew,Hall,1985-12-03,Male,J
 598,Cynthia,Gill,2019-11-24,Female,S
 599,Mark,Ramirez,1951-10-15,Male,A
-600,Colin,Riggs,2004-01-28,Non-binary,N
+600,Colin,Riggs,2004-01-28,Not known,N
 601,Anthony,Martinez,1950-06-13,Male,A
 602,Sarah,Stephenson,1980-04-06,Female,G
 603,Kyle,Williams,2007-02-15,Male,N
@@ -665,7 +665,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 664,David,Smith,2016-03-08,Male,S
 665,Don,Williams,1975-04-12,Male,F
 666,Carla,Oliver,2001-03-28,Female,M
-667,Natasha,Key,1962-03-14,Non-binary,C
+667,Natasha,Key,1962-03-14,Not known,C
 668,Stephanie,Marks,1991-08-31,Female,K
 669,Erica,Lyons,1976-08-26,Female,G
 670,Allison,Acosta,1982-10-02,Female,H
@@ -892,7 +892,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 891,Darrell,Howard,1989-11-09,Male,K
 892,William,Thompson,1986-11-12,Male,J
 893,Timothy,Murphy,1959-06-24,Male,C
-894,Michelle,Hatfield,1956-06-04,Non-binary,B
+894,Michelle,Hatfield,1956-06-04,Not known,B
 895,Michelle,Burgess,1950-11-15,Female,A
 896,David,Reyes,2011-09-03,Male,R
 897,Timothy,Ortiz,1956-02-10,Male,B
@@ -991,7 +991,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 990,John,Morris,1979-05-19,Male,G
 991,Jill,Patton,1987-05-12,Female,J
 992,Natasha,Burke,1977-02-26,Female,G
-993,Jade,Archer,1976-07-07,Non-binary,G
+993,Jade,Archer,1976-07-07,Not known,G
 994,John,Smith,1993-07-05,Male,K
 995,Cody,Taylor,2008-06-17,Male,P
 996,Kevin,Williams,2002-04-15,Male,M

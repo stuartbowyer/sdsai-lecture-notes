@@ -36,7 +36,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 106,Adam,Robinson,2007-03-01,Male,P
 117,Laura,Becker,2007-02-11,Female,N
 119,Jacqueline,Reid,2011-07-30,Female,R
-124,Christopher,Hooper,2020-12-27,Non-binary,Z
+124,Christopher,Hooper,2020-12-27,Not known,Z
 129,Jeffery,Martinez,2010-10-17,Male,P
 135,Charles,Garcia,2019-12-06,Male,S
 136,Benjamin,Green,2024-08-22,Male,Z
@@ -57,7 +57,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 210,Victor,Collins,2014-06-11,Male,R
 211,Joshua,Owens,2009-02-08,Male,P
 212,Sharon,Lamb,2014-03-03,Female,R
-216,Matthew,Key,2011-10-15,Non-binary,R
+216,Matthew,Key,2011-10-15,Not known,R
 218,Frank,Miller,2021-05-25,Male,Z
 221,Joshua,Morales,2017-12-14,Male,S
 230,Michael,Wilson,2018-11-01,Male,S
@@ -86,7 +86,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 316,Sarah,Richards,2019-10-10,Female,S
 319,Noah,Richardson,2007-04-08,Male,P
 323,Kenneth,Reynolds,2021-07-24,Male,Z
-342,Jeffery,Hinton,2008-02-21,Non-binary,P
+342,Jeffery,Hinton,2008-02-21,Not known,P
 349,Sarah,Stark,2011-03-21,Female,P
 351,Tabitha,Jimenez,2015-12-02,Female,R
 356,Philip,Robinson,2021-12-20,Male,Z
@@ -141,7 +141,7 @@ id,firstname,lastname,date_of_birth,gender,ethnicity_code
 518,Alex,Lopez,2023-01-02,Male,Z
 528,Pamela,Rubio,2016-08-07,Female,S
 530,Joseph,White,2022-04-29,Male,Z
-531,Tiffany,Kaiser,2023-07-26,Non-binary,Z
+531,Tiffany,Kaiser,2023-07-26,Not known,Z
 538,Jeremy,Stewart,2009-08-04,Male,P
 546,James,Miller,2019-11-20,Male,S
 551,Marco,Thomas,2017-01-06,Male,S

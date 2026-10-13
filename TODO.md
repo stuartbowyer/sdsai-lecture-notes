@@ -1,11 +1,14 @@
 # TODO
 Changes that are needed to the course material or ideas for general improvements
 
+## Course-wide (2027)
+*   Shift the balance of each session from methods towards data and judgement. Sort the code by what a student needs when stuck on it: method vocabulary (`sort_values`, string methods, plot styling, `fit`/`predict`) moves to run-before-class pre-work, where the docs or an assistant answer the question; the model-forming ideas (scope, a column is not a list, what a join keeps, groupby as a reduction, leakage) stay in class as Predicts; the integration tasks that chain methods into a feature or an analysis stay in class as the self-paced block, with support in the room.
+*   Gate the pre-work: the first Predict of each session should only be answerable by someone who ran the pre-work cells, so the balance above holds through the course.
+*   Decide the balance per session from the 2026 run: where pairs stalled in the self-paced block, which Predicts produced discussion, and whether the capstones came back done.
+
 ## 1 / Programming for DS and AI
 
 ## 2 / Manipulating and Visualising Data
-*   For the CRP example, it would be clearer for explanation and testing to just pick a name and run the function rather than using a loop
-*   Cells fail if run out of order (54 of 64 code cells rely on earlier ones: `pd`/`plt` imports and `df_*` frames). Make each exercise cell load what it needs (imports and `pd.read_csv`) as done for lecture 1
 
 ## 3 / Accessing Data and Challenge 1
 
