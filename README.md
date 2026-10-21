@@ -38,6 +38,9 @@ Delves into the architecture and training of neural networks for complex tasks.
 ### Ensemble Methods and Unsupervised Learning
 Examines techniques for improving model performance and uncovering hidden data structures.
 
+## MIMIC-IV data
+The notebooks query MIMIC-IV 3.1 through public BigQuery views in the `bowyerlab-mimic-teaching` project, defined in [`sql/views`](sql/views) with one folder per dataset. The views hold no data: querying them needs your own [PhysioNet credentialed access](https://physionet.org/content/mimiciv/3.1/) to MIMIC-IV on BigQuery, and a Google Cloud project to bill the queries to.
+
 ## Previous Versions
 | Year | Version | Link |
 | ---  | ---     | ---  |
