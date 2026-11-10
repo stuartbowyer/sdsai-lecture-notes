@@ -28,6 +28,8 @@ Changes that are needed to the course material or ideas for general improvements
 ## 4 / ML Foundations and Data Prep
 *   The 2026 rewrite is over length: the lecture sections (2 to 6) and the practice block are both written in full. Decide what to drop, skim or demote to the appendix after the 2026 run.
 *   The practice block's model (in-hospital death, ICU cohort) is a placeholder for the ICU-heavy middle of the course; revisit if Sessions 5 to 7 move to a non-ICU question.
+*   Too much material in the body (90 mins straight talking)
+*   The narrative of the EDA questions is messy. It doesn't flow/follow well and needs simplifying and better structuring.
 
 ## 5 / Supervised Learning
 *   AUC ROC needs more explanation or detail or introduction
