@@ -8,6 +8,9 @@ Changes that are needed to the course material or ideas for general improvements
 *   Diversify the activity types beyond Predict and Your Turn, following PRIMM. Together time is Run–Investigate: a worked example, then a question answered from the output or by changing one thing (locate the line, trace where the rows went, read the error). Predict only where the construct has already been met, answered silently in pairs. The self-paced block is mainly Modify: a working cell, then change it to answer the adjacent question; fill-the-blank only where the pattern has been seen twice. Make is homework and the capstone. Update the "How to use this notebook" slide to match.
 *   One task per cell: never two independent `____` tasks in one code cell (the Session 2 CRP cell is the worst case). Audit every session.
 *   Your Turns only in self-paced blocks or homework; audit every session for Your Turns inside together sections.
+*   After Session 7 (not mid-course: it breaks links students are using): rename `notebooks/exercises/` to `notebooks/extras/` and name its notebooks session first, `NN_<role>[_<title>].ipynb` (`04_preparation`, `06_solutions`, `06_optional_deep_learning_on_images`, `07_exercises`), so each session's files sort together. Then update the links in the Session 6 and 7 notebooks, the patterns in bowyer.ai's `teaching/scripts/canvas_pages.py` (one rule in place of the Exercise/Preparation/Optional cases), and re-paste the Canvas solutions pages, whose links point at `exercises/`.
+*   Repo session numbers skip the colleague-taught week, so they don't match the weeks students see. Filenames keep repo numbers; student-facing text doesn't use them. Notebooks name other sessions by title, not "Session N" (the "Before Session N" cells and prose such as "Session 4 assumes…"); retitle those cells "## Before the next session", which `canvas_pages.py` already matches. Canvas pages use weeks: add `week = N` per session to bowyer.ai's `teaching/courses/sdsai/canvas.toml` and use it in `canvas_pages.py`, including the iframe title.
+*   Harmonise the preparation Canvas pages in bowyer.ai's `teaching/courses/sdsai/canvas/`, written at different points in three styles: the same opening block on each (which week it is for; alone, group or trio; time; what is due and when), the Session 1–2 table style (caption, `scope="col"`, grey header), and shared section names (why, before you start, the task, what good looks like, hand-in). The generated Session 4 page gets its opening block from an optional `preparation` field in `canvas.toml`.
 
 ## 1 / Programming for DS and AI
 
@@ -34,15 +37,15 @@ Changes that are needed to the course material or ideas for general improvements
 ## 5 / Supervised Learning
 *   AUC ROC needs more explanation or detail or introduction
 *   Some worked examples would make this smoother
-*   Cells fail if run out of order (`df_day1_vitalsign`, train/test splits, fitted `model`). Each exercise cell should rebuild what it needs
+*   It's unclear that self study part 2 is classifier rather than regression
+*   self study exercise builds the same confusion matrix as the lecture notes earlier. the students get confused that this has not involved any change or difference. perhaps we should make it a bit different.
 
 ## 6 / Neural Networks
 *   Todo
-*   Exercise cells rely on `df_day1_vitalsign` from an earlier cell (see lecture 4 note)
 
 ## 7 / Ensemble Methods Etc.
 *   Todo
-*   Exercise cells rely on `df_day1_vitalsign` from an earlier cell (see lecture 4 note)
+*   The lecture still loads the old `df_day1_vitalsign` with `dod` mortality: rebuild from the course views as Sessions 5 and 6 do
 
 ## 8 / Summary
 *   Summary of data pipeline (i.e. spliting, etc) at the end
