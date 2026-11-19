@@ -2,7 +2,8 @@
 -- aki: postoperative acute kidney injury within 7 days of ICU admission (intime). KDIGO creatinine criteria
 --   against the last creatinine in the 30 days before ICU admission: a rise to at least 1.5 times it within
 --   7 days, or of at least 0.3 mg/dL within 48 hours; or dialysis started within 7 days.
---   NULL when it cannot be judged: no creatinine in those 30 days, or chronic dialysis before surgery.
+--   NULL when it cannot be judged: no creatinine in those 30 days, or dialysis before surgery (end-stage
+--   kidney disease or dialysis dependence coded in an earlier admission, or dialysis recorded before ICU admission).
 -- aki_onset_time: when the first of those criteria was met. Use it only to decide who is still at risk at
 --   your prediction time; it is never a feature.
 WITH first_stays AS (
@@ -48,14 +49,28 @@ dialysis_onset AS (
   GROUP BY f.stay_id
 ),
 chronic_dialysis AS (
-  -- end-stage kidney disease or dialysis dependence, coded in this or an earlier admission
+  -- on dialysis before surgery. Diagnoses have no dates and are coded at discharge, so the surgical
+  -- admission's diagnoses cannot separate chronic dialysis from dialysis started after surgery.
   SELECT DISTINCT f.stay_id
   FROM first_stays AS f
   JOIN `physionet-data.mimiciv_3_1_hosp.admissions` AS a
-    ON a.subject_id = f.subject_id AND a.admittime <= f.intime
+    ON a.subject_id = f.subject_id AND a.hadm_id != f.hadm_id AND a.admittime < f.intime
   JOIN `physionet-data.mimiciv_3_1_hosp.diagnoses_icd` AS d ON d.hadm_id = a.hadm_id
-  WHERE (d.icd_version = 10 AND d.icd_code IN ('N186', 'Z992'))
+  WHERE (d.icd_version = 10 AND d.icd_code IN ('N186', 'Z992'))  -- end-stage kidney disease, dialysis dependence
      OR (d.icd_version = 9 AND d.icd_code IN ('5856', 'V4511'))
+  UNION DISTINCT
+  SELECT f.stay_id
+  FROM first_stays AS f
+  JOIN `physionet-data.mimiciv_3_1_hosp.procedures_icd` AS p
+    ON p.subject_id = f.subject_id AND p.chartdate < DATE(f.intime)
+  WHERE (p.icd_version = 10 AND (STARTS_WITH(p.icd_code, '5A1D') OR p.icd_code = '3E1M39Z'))  -- haemodialysis, peritoneal dialysis
+     OR (p.icd_version = 9 AND p.icd_code IN ('3995', '5498'))
+  UNION DISTINCT
+  SELECT f.stay_id
+  FROM first_stays AS f
+  JOIN `physionet-data.mimiciv_3_1_icu.icustays` AS i ON i.subject_id = f.subject_id
+  JOIN `physionet-data.mimiciv_3_1_derived.rrt` AS r
+    ON r.stay_id = i.stay_id AND r.dialysis_active = 1 AND r.charttime < f.intime
 )
 SELECT
   f.subject_id,
